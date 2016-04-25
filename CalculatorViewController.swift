@@ -9,7 +9,11 @@
 import UIKit
 
 class CalculatorViewController: UIViewController {
+    
+    var isNewValueInput: Bool = false
 
+    @IBOutlet weak var calculatorDisplay: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,7 +24,6 @@ class CalculatorViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation
@@ -31,5 +34,18 @@ class CalculatorViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBAction func inputValue(sender: UIButton) {
+        if isNewValueInput == true {
+            calculatorDisplay.text! = sender.currentTitle!
+            isNewValueInput = false
+        } else {
+            calculatorDisplay.text! += sender.currentTitle!
+        }
+        
+        
+    }
+ 
+    
 
 }

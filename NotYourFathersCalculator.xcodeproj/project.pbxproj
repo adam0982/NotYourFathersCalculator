@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC0001D91CCDBDC000AFDBF2 /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0001D81CCDBDC000AFDBF2 /* CalculatorButton.swift */; settings = {ASSET_TAGS = (); }; };
+		DC0001DB1CCDC24500AFDBF2 /* CalculatorDisplayLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0001DA1CCDC24500AFDBF2 /* CalculatorDisplayLabel.swift */; settings = {ASSET_TAGS = (); }; };
 		DC0D64261CCC16E400864361 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0D64251CCC16E400864361 /* AppDelegate.swift */; };
 		DC0D642B1CCC16E400864361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC0D64291CCC16E400864361 /* Main.storyboard */; };
 		DC0D642D1CCC16E400864361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0D642C1CCC16E400864361 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC0001D81CCDBDC000AFDBF2 /* CalculatorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		DC0001DA1CCDC24500AFDBF2 /* CalculatorDisplayLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorDisplayLabel.swift; sourceTree = "<group>"; };
 		DC0D64221CCC16E400864361 /* NotYourFathersCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotYourFathersCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0D64251CCC16E400864361 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC0D642A1CCC16E400864361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				DC8EC1851CCC1D0600330CBF /* CalculatorViewController.swift */,
 				DC0D64291CCC16E400864361 /* Main.storyboard */,
+				DC0001DA1CCDC24500AFDBF2 /* CalculatorDisplayLabel.swift */,
+				DC0001D81CCDBDC000AFDBF2 /* CalculatorButton.swift */,
 				DC0D64531CCC170E00864361 /* Supporting Files */,
 			);
 			path = NotYourFathersCalculator;
@@ -264,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC8EC1861CCC1D0600330CBF /* CalculatorViewController.swift in Sources */,
+				DC0001D91CCDBDC000AFDBF2 /* CalculatorButton.swift in Sources */,
 				DC0D64261CCC16E400864361 /* AppDelegate.swift in Sources */,
+				DC0001DB1CCDC24500AFDBF2 /* CalculatorDisplayLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
