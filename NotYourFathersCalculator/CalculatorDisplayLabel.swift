@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 class CalculatorDisplayLabel: UILabel {
     
     override init(frame: CGRect) {

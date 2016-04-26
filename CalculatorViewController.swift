@@ -10,7 +10,17 @@ import UIKit
 
 class CalculatorViewController: UIViewController {
     
-    var isNewValueInput: Bool = false
+    var isNewValueInput: Bool = true
+    var model = CalculatorModel()
+    var displayValue: Double {
+        get {
+            return NSNumberFormatter().numberFromString(calculatorDisplay.text!)!.doubleValue
+        }
+        set {
+            calculatorDisplay.text = "\(newValue)"
+            isNewValueInput = false
+        }
+    }
 
     @IBOutlet weak var calculatorDisplay: UILabel!
     
@@ -36,16 +46,19 @@ class CalculatorViewController: UIViewController {
     */
     
     @IBAction func inputValue(sender: UIButton) {
-        if isNewValueInput == true {
-            calculatorDisplay.text! = sender.currentTitle!
+        
+        let newInput = sender.currentTitle!
+        
+        if isNewValueInput {
+            calculatorDisplay.text! = newInput
             isNewValueInput = false
         } else {
-            calculatorDisplay.text! += sender.currentTitle!
+            calculatorDisplay.text! = calculatorDisplay.text! + newInput
         }
-        
-        
     }
  
-    
+    @IBAction func inputOps(sender: UIButton) {
+        isNewValueInput = true
+    }
 
 }

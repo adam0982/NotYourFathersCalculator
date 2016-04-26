@@ -21,7 +21,7 @@
                                 <rect key="frame" x="0.0" y="28" width="600" height="79"/>
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="66"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -37,7 +37,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="5">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -56,7 +56,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="−">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -67,7 +67,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="mxT-QF-8ZX"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="owe-67-dai"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FT2-8I-DjW" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -75,7 +75,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="9">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -94,7 +94,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="7">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -113,7 +113,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="0">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -132,7 +132,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="6">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -151,7 +151,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="=">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -162,7 +162,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="ndy-b3-Xmv"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="xmR-Kg-qGk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3g-dP-taQ" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -170,7 +170,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="×">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -181,7 +181,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="92s-ZX-r8B"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="d3m-fa-UPq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZC-vS-TbA" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -189,7 +189,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="+">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -200,7 +200,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="1lL-AN-wt8"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="daz-hc-OBG"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qH8-OI-VIh" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -208,7 +208,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="3">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -227,7 +227,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="2">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -246,7 +246,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="÷">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -257,7 +257,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="EfD-cX-EGd"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="QL0-SD-AIa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5J-nc-cSH" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -265,7 +265,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="OP1">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -276,7 +276,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="PDn-jn-NJ5"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="GkI-b5-a1w"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dI-Ky-ODZ" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -284,7 +284,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="OP2">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -295,7 +295,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="QkX-g9-SKP"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="LqO-n4-Xjp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIJ-8x-8JR" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -303,7 +303,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="OP3">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -314,7 +314,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="Yy7-aR-ibU"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="wm7-dk-faq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1W-Q4-PP9" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -322,7 +322,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="OP4">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -333,7 +333,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="Rpj-zf-aAM"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="Wte-aC-xwc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Cl-o0-C6H" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -341,7 +341,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="8">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -360,7 +360,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="4">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -379,7 +379,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="1">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -398,7 +398,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="C">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -409,7 +409,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="0Yd-CT-31p"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="dCt-Mm-eoa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Hz-HB-Owq" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -417,7 +417,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="OP6">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -428,7 +428,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="1g6-qN-R53"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="5dT-kY-kTQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NF0-UA-fR2" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -436,7 +436,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="OP5">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -447,7 +447,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="2k4-Nn-V9Q"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="gMo-GY-3un"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n6w-K9-Rs6" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -455,7 +455,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="OP7">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -466,7 +466,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="VqU-aM-cmq"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="Swg-Tw-o1Q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cLi-Tl-knt" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -474,7 +474,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="OP8">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -485,7 +485,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="88q-m7-f0N"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="NGN-7d-5Rz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6W-10-mxm" customClass="CalculatorButton" customModule="NotYourFathersCalculator" customModuleProvider="target">
@@ -493,7 +493,7 @@
                                 <color key="backgroundColor" red="0.93368007596685088" green="0.93368007596685088" blue="0.93368007596685088" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="OP9">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
@@ -504,7 +504,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="inputValue:" destination="iM7-Do-FbY" eventType="touchUpInside" id="LiP-vy-oMy"/>
+                                    <action selector="inputOps:" destination="iM7-Do-FbY" eventType="touchUpInside" id="s2c-s9-8uR"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -644,14 +644,14 @@
                                 <exclude reference="j0H-p5-Dga"/>
                                 <exclude reference="uyq-U8-hGs"/>
                                 <exclude reference="Wyi-xd-vx5"/>
-                                <exclude reference="5OG-JS-cjg"/>
-                                <exclude reference="mFd-po-r4W"/>
                                 <exclude reference="c9L-wg-M0h"/>
+                                <exclude reference="5OG-JS-cjg"/>
+                                <exclude reference="7h2-JK-ADr"/>
+                                <exclude reference="NhB-67-Ace"/>
+                                <exclude reference="mFd-po-r4W"/>
                                 <exclude reference="oh0-O6-MZy"/>
                                 <exclude reference="8Fj-39-WN7"/>
                                 <exclude reference="hEK-ml-uJ6"/>
-                                <exclude reference="7h2-JK-ADr"/>
-                                <exclude reference="NhB-67-Ace"/>
                             </mask>
                         </variation>
                     </view>
