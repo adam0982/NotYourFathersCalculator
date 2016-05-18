@@ -21,6 +21,7 @@ class CalculatorButton: UIButton {
         super.init(coder: aDecoder)
         borderWidth = 1
         borderColor = UIColor.blackColor()
+
     }
     
     @IBInspectable var borderWidth:CGFloat = 0 {
