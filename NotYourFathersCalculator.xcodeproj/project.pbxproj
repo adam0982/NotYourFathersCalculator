@@ -209,6 +209,7 @@
 				TargetAttributes = {
 					DC0D64211CCC16E400864361 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FK44KU82R5;
 					};
 					DC0D64351CCC16E400864361 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -418,10 +419,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = NotYourFathersCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.adam.NotYourFathersCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamserruys.notyourfatherscalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dfe8adb2-cbbb-4de2-9d64-6e122867c9ef";
 			};
 			name = Debug;
 		};
@@ -429,10 +432,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Adam Serruys (FK44KU82R5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Adam Serruys (FK44KU82R5)";
 				INFOPLIST_FILE = NotYourFathersCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.adam.NotYourFathersCalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamserruys.notyourfatherscalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "dfe8adb2-cbbb-4de2-9d64-6e122867c9ef";
 			};
 			name = Release;
 		};
